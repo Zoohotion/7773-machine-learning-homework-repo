@@ -1,0 +1,101 @@
+# -----------------------------
+# OS & general system files
+# -----------------------------
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.egg-info/
+.env
+.venv
+venv/
+env/
+.ipynb_checkpoints/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.sqlite3
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual environment & config
+*.env
+.env/
+.envrc
+.env.*
+
+# -----------------------------
+# C++ / Build files
+# -----------------------------
+*.o
+*.obj
+*.out
+*.exe
+*.a
+*.so
+*.dll
+*.dSYM/
+build/
+cmake-build*/
+*.gch
+
+# -----------------------------
+# VS Code
+# -----------------------------
+.vscode/
+.history/
+*.code-workspace
+
+# -----------------------------
+# Data files (keep raw/processed local)
+# -----------------------------
+data/raw/*
+data/processed/*
+!data/.gitkeep   # keep folder structure if empty
+
+# -----------------------------
+# Jupyter / Reports / Plots
+# -----------------------------
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# -----------------------------
+# Mac & system cache
+# -----------------------------
+*.swp
+*.swo
+*.bak
+*.old
+*.orig
+
+# -----------------------------
+# Compiled / temporary scripts
+# -----------------------------
+dist/
+build/
+temp/
+tmp/
+.cache/
+*.ipynb_checkpoints/
+
+# -----------------------------
+# Optional: ignore large CSVs
+# -----------------------------
+*.csv
+*.xlsx
+*.xls
